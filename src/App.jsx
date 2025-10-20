@@ -84,8 +84,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="title">
-        <h1>✨ Happy Diwali 2024 ✨</h1>
-        <p className="subtitle">Wishing you joy, prosperity & light</p>
+        <h1>✨ Happy Diwali ✨</h1>
       </div>
       
       {/* Interactive Instructions */}

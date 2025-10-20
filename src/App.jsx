@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
-import { useControls, button, folder, Leva } from 'leva'
+import { useControls, button, folder} from 'leva'
 import Diya from './components/Diya'
 import Flame from './components/Flame'
 import Galaxy from './components/Galaxy'
@@ -83,8 +83,6 @@ function App() {
   
   return (
     <div className="app-container">
-      <Leva collapsed={true} />
-
       <div className="title">
         <h1>✨ Happy Diwali ✨</h1>
       </div>
